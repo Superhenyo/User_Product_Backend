@@ -50,7 +50,7 @@ export const allOrders = async () => {
     }
 }
 
-export const getPaginatedProducts = async (page: number) => {
+export const getPaginatedOrders = async (page: number) => {
     try {
         const pageLimit = 2;
         const offset = (page - 1) * pageLimit;
