@@ -94,8 +94,8 @@ Here are the **full API endpoints** with detailed descriptions:
    - **Body**:
      ```json
      {
-       "name": "John Updated",
-       "email": "johnupdated@example.com"
+    "email" : "admin@mail.com",
+    "password" : "admin"
      }
      ```
    - **Response**:
